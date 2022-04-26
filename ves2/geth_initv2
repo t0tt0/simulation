@@ -1,0 +1,3 @@
+#!/bin/bash
+  
+../../geth init genesisv2.json --datadir ~/Library/Ethereumv2

@@ -1,0 +1,13 @@
+{
+    "name": "ethereum-transaction-generator",
+    "version": "0.0.1",
+    "dependencies": {
+        "web3": "~1.0.0-beta.34",
+        "minimist": "~1.2.0",
+        "solc": "~0.4.24"
+    },
+    "author": {
+        "name": "Ben NG Hok Chun",
+        "email": "hcngac@connect.ust.hk"
+    }
+}

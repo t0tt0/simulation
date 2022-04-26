@@ -1,0 +1,2 @@
+. ./geth_bootnode
+~/go-ethereum/build/bin/geth --networkid 556 --syncmode full --rpc --port 24765 --targetgaslimit 0x100000 --mine --minerthreads 1 --etherbase 0xCbcd9256F74CF5465fbC8aC6944f7e0873fCA9Ae --bootnodes $BOOTNODE console

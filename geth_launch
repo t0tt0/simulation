@@ -1,0 +1,2 @@
+../geth --networkid 556 --syncmode full --rpc --port 24765
+

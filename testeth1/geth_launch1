@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../../geth --networkid 7 --syncmode full --rpc --rpcport 24769 --datadir ~/Library/Ethereumtest1 --bootnodes "enode://2f17d579155bff07f28f0a75f8f186ee6837cefaf683af2da51a66fba3d2bc95d27196969e8bbe7063cd467c904ec996f1b69564c08118f601c9ffa0f5d9be45@127.0.0.1:24780" --etherbase 0xCbcd9256F74CF5465fbC8aC6944f7e0873fCA9Ae --allow-insecure-unlock --verbosity 3 2>> eth1.log console 2>> eth1console.log

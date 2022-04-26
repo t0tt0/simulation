@@ -1,0 +1,4 @@
+#!/bin/bash
+
+../../geth --networkid 7 --syncmode full --rpc --rpcport 24765 --port 30303 --datadir ~/Library/Ethereum1 --bootnodes "enode://f3b56ac757e28fde75c0f6d3ab36e250e8dc1cfb7da6a38c265f140b05d5248bf199984c91b8fdda140cb9ca3fd7f208aba66a7df89258a50f157992baec9347@35.155.151.80:24780" --etherbase 0xCbcd9256F74CF5465fbC8aC6944f7e0873fCA9Ae --allow-insecure-unlock  --rpcapi eth,web3,admin,personal,net --verbosity 3 2>> eth1.log console 2>> eth1console.log
+

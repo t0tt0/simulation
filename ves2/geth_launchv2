@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../../geth --networkid 8 --syncmode full --rpc --rpcport 24768 --port 30306 --bootnodes "enode://87302bae047915e0a673dd64d85040da9019c074b0a159130655e7eaef6fae681c1bed15f3df5e9be3970d97508c4817247a455dfd50b1f7e186de0d40eb23b5@127.0.0.1:24781" --datadir ~/Library/Ethereumv2 --rpcapi eth,web3,admin,personal,net --allow-insecure-unlock --verbosity 3 2>> ethv2.log console 2>> ethv2console.log
